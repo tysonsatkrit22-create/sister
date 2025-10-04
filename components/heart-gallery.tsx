@@ -68,7 +68,7 @@ export function HeartGallery() {
     <section ref={sectionRef} className="relative px-4 py-20">
       <div className="mx-auto max-w-6xl">
         <h2 className="mb-16 text-center font-sans text-4xl font-bold bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent md:text-5xl text-balance">
-          CUITEEEEEEEEEEEEEEEEEEE❤️
+          CUITEEEEEEEEEEEEEEEEEEE❤️💝💝💝💝
         </h2>
 
         <div className="relative mx-auto" style={{ maxWidth: "800px" }}>

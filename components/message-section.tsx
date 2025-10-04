@@ -61,7 +61,7 @@ export function MessageSection() {
                   </p>
 
                   <p className="text-center font-bold text-2xl bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent text-pretty">
-                    I love you more than words can express! ❤️ . 
+                    I love you more than words can express! ❤️
                     So, just in case I haven’t said it: I’m really grateful for you. 
                     For your energy, your honesty, your light. Life definitely had a plan when it brought us together.
                   </p>
