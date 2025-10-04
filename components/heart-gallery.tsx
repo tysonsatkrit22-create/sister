@@ -21,6 +21,24 @@ const heartPositions = [
   { row: 5, col: 2 },
 ]
 
+const imageUrls = [
+  "/kristu/394508321_534783912189514_537909004378894384_n.jpeg",
+  "/kristu/SnapInsta.to_463803112_1248535559795794_6873435050714324247_n.jpg",
+  "/kristu/SnapInsta.to_457207265_392208820321750_7975388446088038927_n.jpg",
+  "/kristu/SnapInsta.to_476442231_18065953162890321_8130764946912607414_n.jpg",
+  "/kristu/SnapInsta.to_504512864_18077510986890321_4492741121454418888_n.jpg",
+  "/kristu/SnapInsta.to_489863785_18071676811890321_7219125872638729040_n.jpg",
+  "/kristu/SnapInsta.to_465486233_1259433431758358_7097178383600360225_n.jpg",
+  "/kristu/278421673_376122594417503_8536118808644223676_n.jpeg",
+  "/kristu/SnapInsta.to_450803006_1164805474726622_6697235790608731886_n.jpg",
+  "/kristu/SnapInsta.to_463800400_1080045806910238_6850244158308235024_n.jpg",
+  "/kristu/SnapInsta.to_465467891_539446442045759_2432797588963274388_n.jpg",
+  "/kristu/kristina.jpg",
+  "/kristu/kristuu.jpg",
+  "/kristu/SnapInsta.to_458565745_549552467400344_2529362680052670139_n.jpg",
+  "/kristu/497974775_1023415789983673_5802641346926958169_n.jpg",
+]
+
 export function HeartGallery() {
   const [visiblePhotos, setVisiblePhotos] = useState<number[]>([])
   const sectionRef = useRef<HTMLDivElement>(null)
@@ -57,13 +75,19 @@ export function HeartGallery() {
           <div className="grid grid-cols-5 gap-4 md:gap-6">
             {Array.from({ length: 6 }).map((_, rowIndex) =>
               Array.from({ length: 5 }).map((_, colIndex) => {
-                const photoIndex = heartPositions.findIndex((pos) => pos.row === rowIndex && pos.col === colIndex)
+                const photoIndex = heartPositions.findIndex(
+                  (pos) => pos.row === rowIndex && pos.col === colIndex,
+                )
                 const isPhotoPosition = photoIndex !== -1
                 const isVisible = visiblePhotos.includes(photoIndex)
 
                 if (!isPhotoPosition) {
-                  return <div key={`${rowIndex}-${colIndex}`} className="aspect-square" />
+                  return (
+                    <div key={`${rowIndex}-${colIndex}`} className="aspect-square" />
+                  )
                 }
+
+                const imageUrl = imageUrls[photoIndex] 
 
                 return (
                   <div
@@ -79,7 +103,7 @@ export function HeartGallery() {
 
                     <div className="relative h-full w-full overflow-hidden rounded-2xl bg-white shadow-xl transition-all duration-300 hover:scale-110 hover:shadow-2xl hover:rotate-3">
                       <Image
-                        src={`/kristu/278421673_376122594417503_8536118808644223676_n.jpeg?height=300&width=300&query=happy sister memory ${photoIndex + 1}`}
+                        src={imageUrl}
                         alt={`Memory ${photoIndex + 1}`}
                         fill
                         className="object-cover transition-transform duration-500 group-hover:scale-125"
