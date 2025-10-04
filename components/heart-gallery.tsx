@@ -122,7 +122,6 @@ export function HeartGallery() {
         </div>
 
         <p className="mt-12 text-center font-sans text-sm text-muted-foreground">
-          Replace placeholder images with your actual photos of your sister
         </p>
       </div>
     </section>

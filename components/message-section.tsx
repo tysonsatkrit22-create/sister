@@ -51,11 +51,10 @@ export function MessageSection() {
 
                   <p className="text-pretty">
                     Just wanted you to know that no matter where life takes us, you’ve got someone in your corner now.
-                    Sister by heart, not just by blood.💛
+                   
                   </p>
 
                   <p className="text-pretty">
-                    Thank you for being not just my sister, but my best friend, my confidant, and my inspiration. 
                     You’ve shown up with kindness, stayed real when it mattered, and made space for me in your life without ever being asked. 
                     That’s rare.
                      And I don’t take it lightly.
