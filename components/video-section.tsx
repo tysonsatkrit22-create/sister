@@ -38,23 +38,16 @@ export function VideoSection() {
           <div className="group relative overflow-hidden rounded-3xl shadow-2xl transition-all duration-500 hover:shadow-primary/50 hover:scale-105">
             <div className="absolute -inset-1 rounded-3xl bg-gradient-to-r from-primary via-accent to-secondary opacity-75 blur-xl animate-pulse-glow" />
 
-           <div className="relative aspect-video overflow-hidden rounded-3xl bg-gradient-to-br from-pink-100 to-purple-100">
-  <video
-    className="absolute inset-0 h-full w-full object-cover"
-    src="/kristu/IMG_6775.MOV" 
-    autoPlay
-    muted
-    loop
-    playsInline
-  ></video>
-
-  <div className="absolute inset-0 bg-black/30 flex items-center justify-center">
-    <p className="font-sans text-xl text-white text-center">
-      Your video is playing...
-    </p>
-  </div>
-</div>
-
+            <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-pink-100 to-purple-100">
+              <video
+                className="w-full h-auto rounded-3xl"
+                src="/kristu/IMG_6775.MOV"
+                autoPlay
+                loop
+                playsInline
+                controls
+              />
+            </div>
           </div>
         </div>
       </div>

@@ -5,7 +5,7 @@ import { useEffect, useState } from "react"
 export function HeroSection() {
   const [isVisible, setIsVisible] = useState(false)
   const [nameVisible, setNameVisible] = useState(false)
-  const sisterName = "Kristina" 
+  const sisterName = "Kristina Koirala" 
 
   useEffect(() => {
     const timer = setTimeout(() => setIsVisible(true), 300)
@@ -29,7 +29,12 @@ export function HeroSection() {
               ❤️
             </span>
           </h1>
-
+<h2 className="mb-4 font-sans text-4xl font-bold text-primary md:text-6xl lg:text-7xl text-balance">
+            For My Amazing Sister
+          </h2>
+          <p className="mx-auto max-w-2xl font-sans text-xl text-foreground/70 md:text-2xl text-pretty leading-relaxed">
+            Just be Happy as always
+          </p>
           <div className="mb-8">
             <h1 className="font-sans text-5xl font-extrabold md:text-7xl lg:text-8xl">
               {sisterName.split("").map((letter, index) => (
