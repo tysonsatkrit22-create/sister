@@ -9,7 +9,7 @@ import "./globals.css"
 export const metadata: Metadata = {
   title: "For My Amazing Sister ❤️",
   description: "A heartfelt tribute to my wonderful sister",
-  
+  generator: "v0.app",
 }
 
 export default function RootLayout({

@@ -75,19 +75,15 @@ export function HeartGallery() {
           <div className="grid grid-cols-5 gap-4 md:gap-6">
             {Array.from({ length: 6 }).map((_, rowIndex) =>
               Array.from({ length: 5 }).map((_, colIndex) => {
-                const photoIndex = heartPositions.findIndex(
-                  (pos) => pos.row === rowIndex && pos.col === colIndex,
-                )
+                const photoIndex = heartPositions.findIndex((pos) => pos.row === rowIndex && pos.col === colIndex)
                 const isPhotoPosition = photoIndex !== -1
                 const isVisible = visiblePhotos.includes(photoIndex)
 
                 if (!isPhotoPosition) {
-                  return (
-                    <div key={`${rowIndex}-${colIndex}`} className="aspect-square" />
-                  )
+                  return <div key={`${rowIndex}-${colIndex}`} className="aspect-square" />
                 }
 
-                const imageUrl = imageUrls[photoIndex] 
+                const imageUrl = imageUrls[photoIndex]
 
                 return (
                   <div
@@ -103,7 +99,7 @@ export function HeartGallery() {
 
                     <div className="relative h-full w-full overflow-hidden rounded-2xl bg-white shadow-xl transition-all duration-300 hover:scale-110 hover:shadow-2xl hover:rotate-3">
                       <Image
-                        src={imageUrl}
+                        src={imageUrl || "/placeholder.svg"}
                         alt={`Memory ${photoIndex + 1}`}
                         fill
                         className="object-cover transition-transform duration-500 group-hover:scale-125"
@@ -121,8 +117,7 @@ export function HeartGallery() {
           </div>
         </div>
 
-        <p className="mt-12 text-center font-sans text-sm text-muted-foreground">
-        </p>
+        <p className="mt-12 text-center font-sans text-sm text-muted-foreground"></p>
       </div>
     </section>
   )

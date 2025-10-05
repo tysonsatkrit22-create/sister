@@ -43,27 +43,24 @@ export function MessageSection() {
 
                 <div className="space-y-6 font-sans text-lg leading-relaxed text-foreground/80 md:text-xl">
                   <p className="text-pretty">
-                    
-                    It’s funny how life brings people together in the most unexpected ways. 
-                    We may have started out as strangers, but somewhere along the way, you became like a sister to me. 
-                    I’m really grateful for the bond we’ve built the trust, the laughter, the support all of it means a lot.
+                    It's funny how life brings people together in the most unexpected ways. We may have started out as
+                    strangers, but somewhere along the way, you became like a sister to me. I'm really grateful for the
+                    bond we've built the trust, the laughter, the support all of it means a lot.
                   </p>
 
                   <p className="text-pretty">
-                    Just wanted you to know that no matter where life takes us, you’ve got someone in your corner now.
-                   
+                    Just wanted you to know that no matter where life takes us, you've got someone in your corner now.
                   </p>
 
                   <p className="text-pretty">
-                    You’ve shown up with kindness, stayed real when it mattered, and made space for me in your life without ever being asked. 
-                    That’s rare.
-                     And I don’t take it lightly.
+                    You've shown up with kindness, stayed real when it mattered, and made space for me in your life
+                    without ever being asked. That's rare. And I don't take it lightly.
                   </p>
 
                   <p className="text-center font-bold text-2xl bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent text-pretty">
-                    I love you more than words can express! ❤️
-                    So, just in case I haven’t said it: I’m really grateful for you. 
-                    For your energy, your honesty, your light. Life definitely had a plan when it brought us together.
+                    I love you more than words can express! ❤️ So, just in case I haven't said it: I'm really grateful
+                    for you. For your energy, your honesty, your light. Life definitely had a plan when it brought us
+                    together.
                   </p>
                 </div>
 
