@@ -32,20 +32,29 @@ export function VideoSection() {
           }`}
         >
           <h2 className="mb-12 text-center font-sans text-4xl font-bold bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent md:text-5xl text-balance animate-pulse-glow">
-            Your Happy Face
+            Your Happy Moment
           </h2>
 
           <div className="group relative overflow-hidden rounded-3xl shadow-2xl transition-all duration-500 hover:shadow-primary/50 hover:scale-105">
             <div className="absolute -inset-1 rounded-3xl bg-gradient-to-r from-primary via-accent to-secondary opacity-75 blur-xl animate-pulse-glow" />
 
-            <div className="relative aspect-video overflow-hidden rounded-3xl bg-gradient-to-br from-pink-100 to-purple-100">
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="text-center space-y-4">
-                  <div className="text-6xl animate-bounce-in">🎬</div>
-                  <p className="font-sans text-xl text-foreground/70">Video montage coming soon...</p>
-                </div>
-              </div>
-            </div>
+           <div className="relative aspect-video overflow-hidden rounded-3xl bg-gradient-to-br from-pink-100 to-purple-100">
+  <video
+    className="absolute inset-0 h-full w-full object-cover"
+    src="/kristu/IMG_6775.MOV" 
+    autoPlay
+    muted
+    loop
+    playsInline
+  ></video>
+
+  <div className="absolute inset-0 bg-black/30 flex items-center justify-center">
+    <p className="font-sans text-xl text-white text-center">
+      Your video is playing...
+    </p>
+  </div>
+</div>
+
           </div>
         </div>
       </div>

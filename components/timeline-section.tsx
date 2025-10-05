@@ -123,7 +123,6 @@ export function TimelineSection() {
                           <span className="font-sans text-sm font-bold text-white">{event.year}</span>
                         </div>
                         <h3 className="mb-2 font-sans text-2xl font-bold text-foreground">{event.title}</h3>
-                        <p className="font-sans text-foreground/70 leading-relaxed">{event.description}</p>
                       </div>
                     </div>
                   </div>
