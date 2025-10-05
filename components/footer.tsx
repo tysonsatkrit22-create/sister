@@ -56,8 +56,8 @@ export function Footer() {
           <p className="font-sans text-lg font-semibold bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent">
             Made with Love
           </p>
-          <p className="font-sans text-sm text-foreground/60">For the most amazing sister in the world</p>
-          <p className="font-sans text-xs text-foreground/40">{new Date().getFullYear()} • Forever & Always</p>
+          <p className="font-sans text-sm text-foreground/60">For the most amazing & beautiful sister in the world</p>
+          <p className="font-sans text-xs text-foreground/40">From • {new Date().getFullYear()} • Forever & Always</p>
         </div>
 
         <div className="mx-auto h-1 w-32 rounded-full bg-gradient-to-r from-primary via-accent to-secondary animate-pulse-glow" />

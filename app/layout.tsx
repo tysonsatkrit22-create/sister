@@ -7,9 +7,8 @@ import { Suspense } from "react"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "For My Amazing Sister ❤️",
+  title: "CHOTA DON ❤️",
   description: "A heartfelt tribute to my wonderful sister",
-  generator: "v0.app",
 }
 
 export default function RootLayout({
