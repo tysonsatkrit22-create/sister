@@ -4,19 +4,19 @@ import { useEffect, useRef, useState } from "react"
 
 const quotes = [
   {
-    text: "Sisters by chance, friends by choice",
+    text: "You’re not just my sister, you’re the one person I know I can always count on.",
     emoji: "💕",
   },
   {
-    text: "Life is better with you in it",
+    text: "You make every day a little brighter, just by being in it.",
     emoji: "🌟",
   },
   {
-    text: "You make every moment brighter",
+    text: "Some people have best friends but I’m lucky mine came as a sister.",
     emoji: "✨",
   },
   {
-    text: "Forever grateful for your friendship",
+    text: "I don’t say it enough, but I’m so lucky to have you as my sister.",
     emoji: "🙏",
   },
 ]

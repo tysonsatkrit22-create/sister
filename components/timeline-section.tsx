@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react"
 
 const timelineEvents = [
   {
-    year: "First Meeting",
+    year: "2025",
     title: "When We First Met",
     description: "The day our journey began",
     emoji: "🌱",
@@ -58,7 +58,7 @@ export function TimelineSection() {
     <section ref={sectionRef} className="relative px-4 py-20">
       <div className="mx-auto max-w-4xl">
         <h2 className="mb-16 text-center font-sans text-4xl font-bold bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent md:text-5xl text-balance animate-pulse-glow">
-          Our Story Timeline
+          Favorite Things
         </h2>
 
         <div className="relative">
