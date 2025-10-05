@@ -4,28 +4,49 @@ import { useEffect, useRef, useState } from "react"
 
 const timelineEvents = [
   {
-    year: "2025",
-    title: "When We First Met",
-    description: "The day our journey began",
-    emoji: "🌱",
-  },
-  {
-    year: "Growing Closer",
-    title: "Building Our Bond",
-    description: "Countless memories and laughs",
-    emoji: "🌸",
-  },
-  {
-    year: "Best Friends",
-    title: "Sisters Forever",
-    description: "An unbreakable connection",
+    year: "Fav Colour & Flower",
+    title: "Lavender",
     emoji: "💝",
   },
   {
-    year: "Today",
-    title: "Still Going Strong",
-    description: "And many more years to come",
-    emoji: "🌟",
+    year: "Fav food",
+    title: "Jhol Momo and Biryani",
+    emoji: "💝",
+  },
+  {
+    year: "Fav Destination",
+    title: "Switzerland",
+    emoji: "💝",
+  },
+  {
+    year: "Fav Singer",
+    title: "Weeknd from hollywood & kk from bollywood",
+    emoji: "💝",
+  },
+  {
+    year: "Fav Song",
+    title: "Weeknd's As You Are",
+    emoji: "💝",
+  },
+  {
+    year: "Fav Series",
+    title: "Vampire Diaries & Gossip Girls",
+    emoji: "💝",
+  },
+   {
+    year: "Fav Fruit",
+    title: "Watermelon",
+    emoji: "💝",
+  },
+   {
+    year: "Fav movie",
+    title: "How to lose a guy in 10 days(not sure)",
+    emoji: "💝",
+  },
+   {
+    year: "Fav concert which you want to go",
+    title: "Weeknd,cigarette after sex,chase Atlantic,the neighborhood,arctic monkeys",
+    emoji: "💝",
   },
 ]
 
@@ -58,7 +79,7 @@ export function TimelineSection() {
     <section ref={sectionRef} className="relative px-4 py-20">
       <div className="mx-auto max-w-4xl">
         <h2 className="mb-16 text-center font-sans text-4xl font-bold bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent md:text-5xl text-balance animate-pulse-glow">
-          Favorite Things
+          Favourite Things
         </h2>
 
         <div className="relative">
