@@ -17,8 +17,8 @@ export default function Home() {
       <VideoSection />
       <HeartGallery />
       <QuotesSection />
-      <MessageSection />
       <TimelineSection />
+      <MessageSection />
       <Footer />
     </main>
   )

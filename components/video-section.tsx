@@ -39,14 +39,15 @@ export function VideoSection() {
             <div className="absolute -inset-1 rounded-3xl bg-gradient-to-r from-primary via-accent to-secondary opacity-75 blur-xl animate-pulse-glow" />
 
             <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-pink-100 to-purple-100">
-              <video
-                className="w-full h-auto rounded-3xl"
-                src="/kristu/IMG_6775.MOV"
-                autoPlay
-                loop
-                playsInline
-                controls
-              />
+             <video
+  className="w-full max-w-3xl h-auto rounded-3xl mx-auto"
+  src="/kristu/IMG_6775.MOV"
+  autoPlay
+  loop
+  playsInline
+  controls
+/>
+
             </div>
           </div>
         </div>
